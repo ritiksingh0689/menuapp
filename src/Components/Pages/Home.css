@@ -17,13 +17,14 @@
 }
 
 .child-left h2 {
-  padding-left: 40px;
+  padding-top: 10rem;
+  margin-left: 40px;
   font-size: 5rem;
 }
 
 .child-left p {
   text-align: justify;
-  padding: 0 40px;
+  margin: 40px 40px;
   font-size: 1.3rem;
   overflow: hidden;
 }
@@ -117,15 +118,22 @@ media Queery
   }
 
   .child-left h2 {
-    padding-left: 10px;
+    padding-top: 1.5rem;
+    margin-left: 10px;
     font-size: 3rem;
   }
 
   .child-left p {
     text-align: justify;
-    padding: 0 10px;
-    font-size: 1.1rem;
-    overflow: hidden;
+    margin: 30px 0.5rem;
+    font-size: 1.3rem;
+  }
+
+  .comic-button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+    padding: 10px 20px;
   }
 }
 

@@ -2,6 +2,10 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import "./Home.css";
 import Home2 from "./Home2";
+import fluid from "./img/i2.jpg";
+
+import fluid1 from "./img/3in1.jpg";
+
 export default function Home() {
   return (
     <>
@@ -25,7 +29,7 @@ export default function Home() {
             <button className="comic-button">Read More!</button>
           </div>
           <div className="child-right">
-            <img className="img-fluid" src="i2.jpg" alt="" />
+            <img className="img-fluid" src={fluid} alt="" />
           </div>
         </div>
       </section>
@@ -33,25 +37,25 @@ export default function Home() {
         <div className="card">
           <div className="card1">
             <div className="cards">
-              <img src="3in1.jpg" alt="" />
+              <img src={fluid1} alt="" />
               <h2>Duls Ate</h2>
               <p>Lorem ipsum dolor sit amet</p>
             </div>
             <div className="cards">
-              <img src="3in1.jpg" alt="" />
+              <img src={fluid1} alt="" />
               <h2>Duls Ate</h2> <p>Lorem ipsum dolor sit amet</p>
             </div>
             <div className="cards">
-              <img src="3in1.jpg" alt="" />
+              <img src={fluid1} alt="" />
               <h2>Duls Ate</h2> <p>Lorem ipsum dolor sit amet</p>
             </div>
             <div className="cards">
-              <img src="3in1.jpg" alt="" />
+              <img src={fluid1} alt="" />
               <h2>Duls Ate</h2> <p>Lorem ipsum dolor sit amet</p>
             </div>
           </div>
         </div>
-      </section>{" "}
+      </section>
       <Home2 />
     </>
   );

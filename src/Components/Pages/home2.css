@@ -24,12 +24,31 @@
 }
 
 .glass-right h1 {
+  margin-top: 10rem;
   font-size: 3.5rem;
 }
 .glass-right p {
+  margin: 3rem 0;
   font-size: 1.3rem;
   text-align: justify;
 }
-.glass-right a {
-  font-size: 1.3rem;
+.readlink {
+  color: black;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 740px) {
+  .glass-right h1 {
+    margin-top: 1rem;
+    font-size: 3rem;
+  }
+  .glass-right p {
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  .readlink {
+    color: black;
+    font-size: 1.4rem;
+  }
 }

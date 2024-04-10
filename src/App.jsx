@@ -1,13 +1,11 @@
 import React from "react";
 import "./App.css";
-import Home from "./Components/Pages/Home.1";
-// import Imagecarousel from "./Components/Carousel/Imagecarousel";
+import Home from "./Components/Pages/Home";
 
 function App() {
   return (
     <>
       <Home />
-      {/* <Imagecarousel /> */}
     </>
   );
 }

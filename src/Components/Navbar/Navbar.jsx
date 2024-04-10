@@ -1,10 +1,11 @@
 import React from "react";
+import logo from "./logo.png";
 import "./nav.css";
 export default function Navbar() {
   return (
     <>
       <nav>
-        <img className="new" src="logo.png" alt="" />
+        <img className="new" src={logo} alt="" />
         <input type="checkbox" id="click" />
         <label htmlFor="click" id="checkbtn">
           <i className="fa-solid fa-bars-staggered"></i>
@@ -24,7 +25,7 @@ export default function Navbar() {
 
               <li>
                 <a href="" className="logo">
-                  <img src="logo.png" alt="" />
+                  <img src={logo} alt="" />
                 </a>
               </li>
               <li>

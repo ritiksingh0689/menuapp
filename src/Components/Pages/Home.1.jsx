@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Home2 from "./Home2";
 import "./Home.css";
+import mealimg from "./i2.jpg";
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
             <button className="comic-button">Read More!</button>
           </div>
           <div className="child-right">
-            <img className="img-fluid" src="i2.jpg" alt="" />
+            <img className="img-fluid" src={mealimg} alt="" />
           </div>
         </div>
       </section>

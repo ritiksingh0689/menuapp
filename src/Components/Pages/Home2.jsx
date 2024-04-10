@@ -1,5 +1,6 @@
 import React from "react";
-import "./home1.css";
+import "./home2.css";
+import hand from "./img/img2.jpg";
 
 export default function Home2() {
   return (
@@ -7,7 +8,7 @@ export default function Home2() {
       <section>
         <div className="glass">
           <div className="glass-left">
-            <img className="img2" src="img2.jpg" alt="" />
+            <img className="img2" src={hand} alt="" />
           </div>
           <div className="glass-right">
             <h1>
@@ -22,7 +23,9 @@ export default function Home2() {
               eveniet repellendus culpa id velit illo nam minus. Assumenda nihil
               cupiditate reiciendis omnis accusantium delectus, ut autem?{" "}
             </p>
-            <a href="#">Read Story</a>
+            <a className="readlink" href="#">
+              Read Story
+            </a>
           </div>
         </div>
       </section>
