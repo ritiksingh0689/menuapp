@@ -23,9 +23,25 @@ export default function Home2() {
               eveniet repellendus culpa id velit illo nam minus. Assumenda nihil
               cupiditate reiciendis omnis accusantium delectus, ut autem?{" "}
             </p>
-            <a className="readlink" href="#">
-              Read Story
-            </a>
+            <a href="@ritik">Read Story</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="main">
+          <div className="c1">
+            <div className="c2">
+              <h2>Move Work Forward</h2>
+              <p>
+                With Asana, you can drive clarity and impact at scale by
+                connecting work and workflows to company-wide goals.
+              </p>
+              <input type="text" placeholder="......type here ....." />
+              <button className="btn">
+                <span>Get started for free</span>
+              </button>
+            </div>
           </div>
         </div>
       </section>

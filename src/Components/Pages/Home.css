@@ -14,8 +14,15 @@
 .child-left {
   height: auto;
   margin: 30px;
+  box-shadow: rgba(39, 37, 37, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  background-color: sandybrown;
+  transition: transform 0.5s;
+  cursor: pointer;
 }
-
+.child-left:hover {
+  transform: scale(0.9);
+}
 .child-left h2 {
   padding-top: 10rem;
   margin-left: 40px;
@@ -115,6 +122,9 @@ media Queery
   .child-lfet,
   .child-right {
     height: auto;
+  }
+  .child-left {
+    padding: 15px;
   }
 
   .child-left h2 {
