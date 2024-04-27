@@ -34,10 +34,10 @@
 }
 
 input[type="text"] {
-  margin: 35px 0;
+  margin: 25px 0;
   border: none;
   padding: 10px 10px;
-  font-size: x-large;
+  font-size: 1.2rem;
   border-bottom: 2px solid black;
   outline: none;
   width: 60%;
@@ -49,14 +49,15 @@ input[type="text"] {
   background: #fff;
   border: none;
   height: 50px;
-  margin-left: 30px;
-  margin: 20px 0;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   padding: 10px 20px;
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
   color: white;
-  width: 200px;
+  width: auto;
   text-transform: uppercase;
   cursor: pointer;
   transform: skew(-21deg);
@@ -97,6 +98,12 @@ input[type="text"]:focus {
 @media screen and (max-width: 740px) {
   .part1 {
     margin: 50px;
+  }
+  .btn2 {
+    width: 150px;
+  }
+  .part2 {
+    margin-left: 10px;
   }
 }
 @media screen and (max-width: 1550px) {
