@@ -153,6 +153,10 @@ responsive css
   .glass-left {
     margin: 0px;
   }
+
+  .btn {
+    width: 150px;
+  }
 }
 @media screen and (max-width: 1358px) {
   .glass-right {
